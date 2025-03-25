@@ -47,7 +47,7 @@ A felület két fő oszlopra oszlik egy `Grid` segítségével:
 2. Grid.Column="0": A bal oszlopba kerül.
 3. Margin="10": 10 pixel távolság a szélektől.
 4. SelectedItemChanged="BrandTree_SelectedItemChanged": Eseménykezelő, amely akkor fut, ha a felhasználó kiválaszt egy márkát.
-5. <DataTemplate>: Meghatározza, hogyan jelenjen meg egy elem (itt a CarBrand objektum).
+5. "<DataTemplate>": Meghatározza, hogyan jelenjen meg egy elem (itt a CarBrand objektum).
 6. Text="{Binding BrandName}": A CarBrand osztály BrandName tulajdonságát köti a TextBlock-hoz, így a márkák nevei látszanak.
 
 ### Űrlap definíciója:
