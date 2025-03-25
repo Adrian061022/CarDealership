@@ -85,7 +85,7 @@ A felület két fő oszlopra oszlik egy `Grid` segítségével:
 ```
 1. x:Name="modelList": Azonosító a C# kód számára.
 2. Grid.Row="1": A jobb oldali Grid alsó sorába kerül.
-3. <GridView>: Táblázatos nézetet biztosít oszlopokkal.
+3. <"GridView">: Táblázatos nézetet biztosít oszlopokkal.
 4. DisplayMemberBinding="{Binding ModelName}": Az oszlop a CarModel osztály ModelName tulajdonságát jeleníti meg, hasonlóan a többi oszlop.
 
 ### C# (MainWindow.xaml.cs)
