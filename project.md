@@ -206,7 +206,7 @@ Keresőmező a modellek szűrésére.
 Adatok mentése fájlba vagy adatbázisba.
 
 <details> <summary>MainWindow.xaml</summary>
-```c#
+```XAML
 <Window x:Class="project.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
