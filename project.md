@@ -204,9 +204,9 @@ private void AddModelButton_Click(object sender, RoutedEventArgs e)
 Színek és stílusok hozzáadása.
 Keresőmező a modellek szűrésére.
 Adatok mentése fájlba vagy adatbázisba.
-```c#
-<details> <summary>MainWindow.xaml</summary>
 
+<details> <summary>MainWindow.xaml</summary>
+```c#
 <Window x:Class="project.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -273,8 +273,8 @@ Adatok mentése fájlba vagy adatbázisba.
         </Grid>
     </Grid>
 </Window>
-```
-</details> <details> <summary>MainWindow.xaml.cs</summary>
+
+</details>``` <details> <summary>MainWindow.xaml.cs</summary>
 using System.Collections.ObjectModel;
 using System.Text;
 using System.Windows;
