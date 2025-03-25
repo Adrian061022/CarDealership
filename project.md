@@ -273,8 +273,9 @@ Adatok mentése fájlba vagy adatbázisba.
         </Grid>
     </Grid>
 </Window>
-
-</details>``` <details> <summary>MainWindow.xaml.cs</summary>
+``` 
+</details><details> <summary>MainWindow.xaml.cs</summary>
+```c# 
 using System.Collections.ObjectModel;
 using System.Text;
 using System.Windows;
@@ -403,4 +404,5 @@ namespace project
         }
     }
 }
+``` 
 </details> 
