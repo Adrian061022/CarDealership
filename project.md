@@ -101,7 +101,7 @@ public class CarModel
 {
     public string ModelName { get; set; }
     public int Year { get; set; }
-    public decimal Price { get; set; }
+    public double Price { get; set; }
     public string Color { get; set; }
 }
 ```
@@ -159,7 +159,7 @@ private void AddModelButton_Click(object sender, RoutedEventArgs e)
             return;
         }
 
-        if (!int.TryParse(yearInput.Text, out int year) || !decimal.TryParse(priceInput.Text, out decimal price))
+        if (!int.TryParse(yearInput.Text, out int year) || !double.TryParse(priceInput.Text, out double price))
         {
             MessageBox.Show("Az évjáratnak és az árnak számnak kell lennie!");
             return;
@@ -311,7 +311,7 @@ namespace project
         {
             public string ModelName { get; set; }
             public int Year { get; set; }
-            public decimal Price { get; set; }
+            public double Price { get; set; }
             public string Color { get; set; }
         }
 
@@ -374,7 +374,7 @@ namespace project
                     return;
                 }
 
-                if (!int.TryParse(yearInput.Text, out int year) || !decimal.TryParse(priceInput.Text, out decimal price))
+                if (!int.TryParse(yearInput.Text, out int year) || !double.TryParse(priceInput.Text, out double price))
                 {
                     MessageBox.Show("Az évjáratnak és az árnak számnak kell lennie!");
                     return;
