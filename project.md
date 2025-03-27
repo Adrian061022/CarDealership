@@ -155,13 +155,13 @@ private void AddModelButton_Click(object sender, RoutedEventArgs e)
     {
         if (string.IsNullOrWhiteSpace(modelNameInput.Text) || /* további ellenőrzések */)
         {
-            MessageBox.Show("Kérlek, töltsd ki az összes mezőt!", "Hiba", MessageBoxButton.OK, MessageBoxImage.Error);
+            MessageBox.Show("Kérlek, töltsd ki az összes mezőt!");
             return;
         }
 
         if (!int.TryParse(yearInput.Text, out int year) || !decimal.TryParse(priceInput.Text, out decimal price))
         {
-            MessageBox.Show("Az évjáratnak és az árnak számnak kell lennie!", "Hiba", MessageBoxButton.OK, MessageBoxImage.Error);
+            MessageBox.Show("Az évjáratnak és az árnak számnak kell lennie!");
             return;
         }
 
@@ -370,13 +370,13 @@ namespace project
                     string.IsNullOrWhiteSpace(priceInput.Text) ||
                     string.IsNullOrWhiteSpace(colorInput.Text))
                 {
-                    MessageBox.Show("Kérlek, töltsd ki az összes mezőt!", "Hiba", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show("Kérlek, töltsd ki az összes mezőt!");
                     return;
                 }
 
                 if (!int.TryParse(yearInput.Text, out int year) || !decimal.TryParse(priceInput.Text, out decimal price))
                 {
-                    MessageBox.Show("Az évjáratnak és az árnak számnak kell lennie!", "Hiba", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show("Az évjáratnak és az árnak számnak kell lennie!");
                     return;
                 }
 
@@ -397,11 +397,11 @@ namespace project
                 priceInput.Text = "";
                 colorInput.Text = "";
 
-                MessageBox.Show("Az új modell sikeresen hozzáadva!", "Siker", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("Az új modell sikeresen hozzáadva!");
             }
             else
             {
-                MessageBox.Show("Kérlek, válassz ki egy márkát a felsorolásban!", "Hiba", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Kérlek, válassz ki egy márkát a felsorolásban!");
             }
         }
     }
