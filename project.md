@@ -195,15 +195,6 @@ private void AddModelButton_Click(object sender, RoutedEventArgs e)
 5. Töltsd ki az űrlapot.
 6. Kattints az "Új modell hozzáadása" gombra.
 
-### Telepítés és futtatás
-1. Hozz létre egy új WPF projektet Visual Studioban "CarDealership" néven.
-2. Másold be a kódot a MainWindow.xaml és MainWindow.xaml.cs fájlokba.
-3. Fordítsd le és futtasd.
-
-### Fejlesztési lehetőségek
-Színek és stílusok hozzáadása.
-Keresőmező a modellek szűrésére.
-Adatok mentése fájlba vagy adatbázisba.
 
 <details> <summary>MainWindow.xaml</summary>
   
